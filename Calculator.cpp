@@ -5,11 +5,13 @@ int main()
 {
     char cal;
     float a, b;
+    
+    cout << "Enter numbers a and b: " << endl;
+    cin >> a >> b;
+    
     cout << "Enter the operator(+ - / * ): " << endl;
     cin >> cal;
 
-    cout << "Enter numbers a and b: " << endl;
-    cin >> a >> b;
     switch (cal)
     {
     case '+':
